@@ -1,0 +1,36 @@
+# Site Settings
+title: Nikhil Kumar Bodige | DevOps & Cloud Engineer
+description: "Senior DevOps & Cloud Engineer with 6+ years of experience delivering secure, scalable infrastructure across AWS and GCP"
+author: Nikhil Kumar Bodige
+email: bnikkhil14@gmail.com
+url: "https://bnikkhil14.github.io"
+baseurl: ""
+
+# Social Links
+linkedin: www.linkedin.com/in/nikhil-kumar-bodige-029359209
+github: bnikkhil14
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - resume
+  - .gitignore
+  - vendor
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
