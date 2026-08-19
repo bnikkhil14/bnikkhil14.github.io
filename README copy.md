@@ -1,5 +1,4 @@
-
-# Nikhil Kumar Bodige — DevOps Portfolio
+# Nikhil Kumar Bodige — Portfolio
 
 Personal portfolio site for Nikhil Kumar Bodige, Cloud/DevOps Engineer.
 Built as a plain static site (HTML/CSS/JS) — no build step, deploys directly on GitHub Pages.
