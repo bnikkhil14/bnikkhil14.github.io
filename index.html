@@ -1,308 +1,550 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nikhil Kumar Bodige — Cloud / DevOps Engineer</title>
-<meta name="description" content="Cloud/DevOps Engineer with 6+ years of experience designing, automating, and managing infrastructure across AWS and Azure.">
-<meta name="author" content="Nikhil Kumar Bodige">
+---
+layout: default
+title: Vasista Behara | DevOps & Cloud Engineer
+description: Senior DevOps & Cloud Engineer with 5+ years of experience delivering secure, scalable infrastructure
+across AWS and GCP
+---
 
-<meta property="og:title" content="Nikhil Kumar Bodige — Cloud / DevOps Engineer">
-<meta property="og:description" content="Cloud/DevOps Engineer with 6+ years of experience across AWS and Azure. Terraform, Kubernetes, CI/CD, IaC.">
-<meta property="og:type" content="website">
-
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛁</text></svg>">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-
-<!-- ================= NAV ================= -->
-<header class="topbar" id="topbar">
-  <div class="topbar__inner">
-    <a href="#top" class="brand">
-      <span class="brand__mark">⛁</span>
-      <span class="brand__text">NKB<span class="brand__cursor">_</span></span>
-    </a>
-    <nav class="navlinks" id="navlinks">
-      <a href="#overview" data-nav>overview</a>
-      <a href="#log" data-nav>experience</a>
-      <a href="#stack" data-nav>stack</a>
-      <a href="#certs" data-nav>certifications</a>
-      <a href="#education" data-nav>education</a>
-      <a href="#contact" data-nav>contact</a>
-    </nav>
-    <div class="topbar__status">
-      <span class="dot dot--live" aria-hidden="true"></span>
-      <span class="mono">available</span>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <a href="#" class="nav-brand">NKB</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
-    <button class="navtoggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+</nav>
 
-<main id="top">
-
-  <!-- ================= HERO / STATUS BOARD ================= -->
-  <section class="hero" id="overview">
-    <div class="hero__grid" aria-hidden="true"></div>
-    <div class="hero__inner">
-      <p class="eyebrow mono">// cloud &amp; devops engineer</p>
-      <h1 class="hero__name">Nikhil Kumar<br>Bodige</h1>
-      <p class="hero__lede">
-        I design, automate, and operate infrastructure that stays up.
-        Six years turning manual ops into repeatable, version-controlled
-        systems across <strong>AWS</strong> and <strong>Azure</strong>.
-      </p>
-
-      <div class="hero__actions">
-        <a class="btn btn--primary" href="mailto:bnikkhil14@gmail.com">Email me</a>
-        <a class="btn btn--ghost" href="https://linkedin.com/in/nikhil-kumar-bodige-029359209" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="btn btn--ghost" href="https://github.com/" target="_blank" rel="noopener" id="https://github.com/bnikkhil14">GitHub ↗</a>
-      </div>
-
-      <!-- Status board -->
-      <div class="board" role="group" aria-label="Career status summary">
-        <div class="board__row board__row--head mono">
-          <span>metric</span><span>value</span><span>status</span>
-        </div>
-        <div class="board__row">
-          <span class="board__label mono">experience</span>
-          <span class="board__value">6+ yrs</span>
-          <span class="board__flag"><span class="dot dot--ok"></span>active</span>
-        </div>
-        <div class="board__row">
-          <span class="board__label mono">cloud_platforms</span>
-          <span class="board__value">AWS · Azure</span>
-          <span class="board__flag"><span class="dot dot--ok"></span>multi-cloud</span>
-        </div>
-        <div class="board__row">
-          <span class="board__label mono">certification</span>
-          <span class="board__value">AWS DevOps Eng. — Pro</span>
-          <span class="board__flag"><span class="dot dot--ok"></span>current</span>
-        </div>
-        <div class="board__row">
-          <span class="board__label mono">current_role</span>
-          <span class="board__value">Cloud Engineer @ CentralSquare</span>
-          <span class="board__flag"><span class="dot dot--live"></span>running</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= SUMMARY ================= -->
-  <section class="section" id="summary">
-    <div class="section__inner">
-      <p class="kicker mono">01 — summary</p>
-      <div class="summary__body">
-        <p>
-          I'm a Cloud/DevOps engineer who spends most of my time turning
-          fragile, manual infrastructure into something boring and reliable —
-          Terraform modules instead of console clicks, Ansible playbooks
-          instead of runbooks, pipelines instead of "deploy on Friday and hope."
-        </p>
-        <p>
-          My core stack is <strong>AWS and Azure</strong>, with Terraform and
-          CloudFormation for infrastructure-as-code and Ansible for
-          configuration automation. I build and maintain CI/CD pipelines in
-          Azure DevOps and Jenkins, run containerized workloads on Docker
-          Swarm and Kubernetes, and keep an eye on it all with CloudWatch,
-          OpenSearch, and the ELK stack. I've led cloud migrations, database
-          upgrades, and platform modernization work end-to-end — from design
-          through production handoff.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= EXPERIENCE — DEPLOYMENT LOG ================= -->
-  <section class="section section--alt" id="log">
-    <div class="section__inner">
-      <p class="kicker mono">02 — deployment log</p>
-      <h2 class="section__title">Experience</h2>
-
-      <ol class="log">
-
-        <li class="log__entry">
-          <div class="log__meta mono">
-            <span class="log__date">2021‑05 → present</span>
-            <span class="log__tag log__tag--live">HEAD</span>
-          </div>
-          <div class="log__body">
-            <h3 class="log__role">Cloud Engineer <span class="log__promo">(promoted from DevOps Engineer)</span></h3>
-            <p class="log__org">CentralSquare Technologies · Remote, Canada</p>
-            <ul class="diff">
-              <li><span class="diff__plus">+</span> Designed and maintained enterprise AWS &amp; Azure infrastructure with Terraform, enabling repeatable IaC deployments across Dev, QA, and Production.</li>
-              <li><span class="diff__plus">+</span> Led enterprise-wide Ubuntu OS and Docker Swarm upgrades with minimal downtime, improving stability and security compliance.</li>
-              <li><span class="diff__plus">+</span> Led PostgreSQL adoption and provisioning via Terraform, replacing legacy database platforms.</li>
-              <li><span class="diff__plus">+</span> Refactored Terraform modules across 20+ environments, cutting configuration duplication.</li>
-              <li><span class="diff__plus">+</span> Implemented AWS cost-optimization: decommissioned unused resources, scheduled non-prod workloads via tag-based automation.</li>
-              <li><span class="diff__plus">+</span> Led SQL Server 2022 migration and standardization across enterprise environments.</li>
-              <li><span class="diff__plus">+</span> Separated development and production repositories to improve governance and release safety.</li>
-              <li><span class="diff__plus">+</span> Served as primary cloud operations engineer — incident response, cross-team coordination, platform availability.</li>
-            </ul>
-            <div class="tagrow">
-              <span>Terraform</span><span>AWS</span><span>Azure</span><span>Azure DevOps</span><span>Docker Swarm</span><span>AWX/Ansible</span><span>PostgreSQL</span><span>SQL Server</span><span>Amazon MQ</span>
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-greeting">👋 Hello, I'm</span>
+                <h1 class="hero-name">Nikhil Kumar Bodige</h1>
+                <p class="hero-title">DevOps & Cloud Engineer</p>
+                <p class="hero-description">
+                    Building secure, scalable, and cost-optimized infrastructure across AWS and GCP.
+                    Specializing in Terraform, Ansible, CI/CD pipelines, Kubernetes orchestration, and Infrastructure as Code.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get in Touch
+                    </a>
+                    <a href="www.linkedin.com/in/nikhil-kumar-bodige-029359209" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">6+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">1</div>
+                        <div class="stat-label">Cloud Certifications</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">2</div>
+                        <div class="stat-label">Cloud Platforms</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" id="visit-count">-</div>
+                        <div class="stat-label">Profile Visits</div>
+                    </div>
+                </div>
+                <!-- <script>
+                    // Profile visit counter using CountAPI
+                    (async function () {
+                        try {
+                            const response = await fetch('https://api.countapi.xyz/hit/vasistabehara.github.io/visits');
+                            const data = await response.json();
+                            document.getElementById('visit-count').textContent = data.value.toLocaleString();
+                        } catch (e) {
+                            document.getElementById('visit-count').textContent = '1K+';
+                        }
+                    })();
+                </script> -->
             </div>
-          </div>
-        </li>
+        </div>
+    </div>
+</section>
 
-        <li class="log__entry">
-          <div class="log__meta mono">
-            <span class="log__date">2019‑04 → 2021‑05</span>
-            <span class="log__tag">merged</span>
-          </div>
-          <div class="log__body">
-            <h3 class="log__role">DevOps Engineer</h3>
-            <p class="log__org">TickSmith Corp · Montréal, QC</p>
-            <ul class="diff">
-              <li><span class="diff__plus">+</span> Engineered and automated AWS infrastructure using Terraform and CloudFormation for repeatable IaC deployments.</li>
-              <li><span class="diff__plus">+</span> Designed serverless, event-driven workflows with AWS Lambda and S3 to automate operational processes.</li>
-              <li><span class="diff__plus">+</span> Migrated enterprise databases from Teradata to Amazon RDS PostgreSQL, improving scalability.</li>
-              <li><span class="diff__plus">+</span> Built automated CI/CD pipelines with Jenkins and Git, reducing deployment time and improving release reliability.</li>
-              <li><span class="diff__plus">+</span> Automated infrastructure with Python (Boto3), Ansible, and Shell scripting, eliminating manual deploy steps.</li>
-              <li><span class="diff__plus">+</span> Containerized enterprise applications with Docker; ran production workloads on Kubernetes and Docker Swarm.</li>
-              <li><span class="diff__plus">+</span> Secured environments via IAM, VPC networking, CloudWatch monitoring, and automated backup policies.</li>
-              <li><span class="diff__plus">+</span> Integrated SonarQube into CI/CD to enforce code quality standards.</li>
-            </ul>
-            <div class="tagrow">
-              <span>AWS</span><span>Lambda</span><span>RDS</span><span>Terraform</span><span>CloudFormation</span><span>Jenkins</span><span>Kubernetes</span><span>Docker Swarm</span><span>Python</span><span>Ansible</span>
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm a passionate DevOps & Cloud Engineer with over 5 years of hands-on experience
+                    designing and implementing cloud infrastructure that scales. My expertise spans
+                    <strong>AWS</strong> and <strong>Azure</strong>, with a focus on automation, security, and cost
+                    optimization.
+                </p>
+                <p>
+                    I specialize in building robust CI/CD pipelines using GitLab and GitHub Actions,
+                    deploying containerized applications with Docker and Kubernetes (EKS/GKE), and
+                    implementing Infrastructure as Code with Terraform and CloudFormation.
+                </p>
+                <p>
+                    Currently working at CentralSquare Technologies as Cloud Engineer II.
+                </p>
             </div>
-          </div>
-        </li>
-
-      </ol>
+            <div class="about-highlights">
+                <div class="highlight-item fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h4>Multi-Cloud Expert</h4>
+                        <p>AWS certified professional</p>
+                    </div>
+                </div>
+                <div class="highlight-item fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-file-code-o"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h4>IaaC</h4>
+                        <p>Terraform, CloudFormation</p>
+                    </div>
+                </div>
+                <div class="highlight-item fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h4>Container Orchestration</h4>
+                        <p>Docker, Docker Swarm, Kubernetes</p>
+                    </div>
+                </div>
+                <div class="highlight-item fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h4>CI/CD Tools</h4>
+                        <p>Ansible, GitLab CI, GitHub Actions, Cloud Build</p>
+                    </div>
+                </div>
+                <div class="highlight-item fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h4>Security & Compliance</h4>
+                        <p>SOC 2, IAM, KMS, Cloud Armor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- ================= STACK / SKILLS ================= -->
-  <section class="section" id="stack">
-    <div class="section__inner">
-      <p class="kicker mono">03 — service catalog</p>
-      <h2 class="section__title">Tech Stack</h2>
-
-      <div class="catalog">
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Cloud Technologies</h3>
-          <div class="tagrow"><span>AWS</span><span>Azure</span></div>
+<!-- Certifications Section -->
+<section id="certifications">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certs-grid">
+            <div class="cert-card aws fade-in">
+                <div class="cert-badge">
+                    <img src="/assets/certifications/Devops_engineer_professional.png"
+                        alt="AWS DevOps Engineer Professional Badge">
+                </div>
+                <h3 class="cert-name">AWS Certified DevOps Engineer - Professional</h3>
+                <p class="cert-date">Issued: Dec 2020 · Expires: Dec 2023</p>
+                <a href="https://www.credly.com/badges/99acb19b-9bcc-4310-bd11-4316a160bd8f" target="_blank"
+                    class="cert-link">
+                    <i class="fas fa-external-link-alt"></i> Verify
+                </a>
+            </div>
         </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Infrastructure as Code</h3>
-          <div class="tagrow"><span>Terraform</span><span>CloudFormation</span><span>Ansible</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Containerization</h3>
-          <div class="tagrow"><span>Docker</span><span>Docker Swarm</span><span>Kubernetes</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">CI/CD</h3>
-          <div class="tagrow"><span>Azure DevOps</span><span>Jenkins</span><span>Ansible / AWX Tower</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Logging &amp; Monitoring</h3>
-          <div class="tagrow"><span>CloudWatch</span><span>OpenSearch</span><span>ELK Stack</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Networking</h3>
-          <div class="tagrow"><span>VPC</span><span>IAM</span><span>Route 53</span><span>Security Groups</span><span>Load Balancers</span><span>SilverLine</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Version Control</h3>
-          <div class="tagrow"><span>Git</span><span>Subversion</span><span>Bitbucket</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Programming / Scripting</h3>
-          <div class="tagrow"><span>Python</span><span>Bash</span><span>JavaScript</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Databases</h3>
-          <div class="tagrow"><span>SQL Server</span><span>Amazon RDS</span><span>PostgreSQL</span></div>
-        </div>
-
-        <div class="catalog__card">
-          <h3 class="catalog__title">Operating Systems</h3>
-          <div class="tagrow"><span>Linux (Ubuntu)</span><span>Windows</span></div>
-        </div>
-
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- ================= CERTIFICATIONS ================= -->
-  <section class="section section--alt" id="certs">
-    <div class="section__inner">
-      <p class="kicker mono">04 — certifications</p>
-      <h2 class="section__title">Certifications</h2>
+<!-- Experience Section -->
+<section id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
 
-      <div class="certs">
-        <div class="cert">
-          <div class="cert__badge" aria-hidden="true">
-            <span class="cert__badge-icon">☁</span>
-          </div>
-          <div class="cert__body">
-            <h3 class="cert__name">AWS Certified DevOps Engineer — Professional</h3>
-            <p class="cert__issuer mono">Amazon Web Services</p>
-          </div>
+            <div class="experience-item fade-in">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">Cloud/DevOps Engineer</h3>
+                        <p class="experience-company">CentralSquare Technologies</p>
+                    </div>
+                    <div class="experience-meta">
+                        <p class="experience-date"><i class="far fa-calendar"></i> May 2021 – Present</p>
+                        <p class="experience-location">Canada (Remote)</p>
+                    </div>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Designed and maintained enterprise AWS &amp; Azure infrastructure with Terraform, enabling repeatable IaC deployments across Dev, QA, and Production.</li>
+                        <li>Led enterprise-wide Ubuntu OS and Docker Swarm upgrades with minimal downtime, improving stability and security compliance.</li>
+                        <li>Led PostgreSQL adoption and provisioning via Terraform, replacing legacy database platforms.</li>
+                        <li>Refactored Terraform modules across 20+ environments, cutting configuration duplication.</li>
+                        <li>Implemented AWS cost-optimization: decommissioned unused resources, scheduled non-prod workloads via tag-based automation.</li>
+                        <li>Led SQL Server 2022 migration and standardization across enterprise environments.</li>
+                        <li>Separated development and production repositories to improve governance and release safety.</li>
+                        <li>Served as primary cloud operations engineer — incident response, cross-team coordination, platform availability.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item fade-in">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">DevOps Engineer</h3>
+                        <p class="experience-company">TickSmith Corp</p>
+                    </div>
+                    <div class="experience-meta">
+                        <p class="experience-date"><i class="far fa-calendar"></i> April 2019 – May 2021</p>
+                        <p class="experience-location">Montreal, Canada</p>
+                    </div>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Engineered and automated AWS infrastructure using Terraform and CloudFormation for repeatable IaC deployments.</li>
+                        <li>Designed serverless, event-driven workflows with AWS Lambda and S3 to automate operational processes.</li>
+                        <li>Migrated enterprise databases from Teradata to Amazon RDS PostgreSQL, improving scalability.</li>
+                        <li>Built automated CI/CD pipelines with Jenkins and Git, reducing deployment time and improving release reliability.</li>
+                        <li>Automated infrastructure with Python (Boto3), Ansible, and Shell scripting, eliminating manual deploy steps.</li>
+                        <li>Containerized enterprise applications with Docker; ran production workloads on Kubernetes and Docker Swarm.</li>
+                        <li>Secured environments via IAM, VPC networking, CloudWatch monitoring, and automated backup policies.</li>
+                        <li>Integrated SonarQube into CI/CD to enforce code quality standards.</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- ================= EDUCATION ================= -->
-  <section class="section" id="education">
-    <div class="section__inner">
-      <p class="kicker mono">05 — education</p>
-      <h2 class="section__title">Education</h2>
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="skills-grid">
 
-      <div class="edu">
-        <div class="edu__item">
-          <h3 class="edu__degree">MS, Computer Science</h3>
-          <p class="edu__school">Lakehead University · Thunder Bay, Ontario, Canada</p>
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fab fa-aws skill-category-icon"></i> AWS Services
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag aws">EC2</span>
+                    <span class="skill-tag aws">EKS</span>
+                    <span class="skill-tag aws">ECS</span>
+                    <span class="skill-tag aws">Lambda</span>
+                    <span class="skill-tag aws">S3</span>
+                    <span class="skill-tag aws">RDS</span>
+                    <span class="skill-tag aws">CloudFront</span>
+                    <span class="skill-tag aws">Route 53</span>
+                    <span class="skill-tag aws">API Gateway</span>
+                    <span class="skill-tag aws">CloudFormation</span>
+                    <span class="skill-tag aws">VPC</span>
+                    <span class="skill-tag aws">IAM</span>
+                    <span class="skill-tag aws">CloudWatch</span>
+                    <span class="skill-tag aws">Secrets Manager</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-cubes skill-category-icon"></i> Containerization & Orchestration
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Docker Swarm</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Helm</span>
+                    <span class="skill-tag">ECR</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-code skill-category-icon"></i> Infrastructure as Code
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Terraform</span>
+                    <span class="skill-tag">CloudFormation</span>
+                    <span class="skill-tag">Ansible</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">GitLab CI/CD</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-chart-line skill-category-icon"></i> Monitoring & Observability
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">CloudWatch</span>
+                    <span class="skill-tag">OpenSearch</span>
+                    <span class="skill-tag">Grafana</span>
+                    <span class="skill-tag">ELK Stack</span>
+                    <span class="skill-tag">Datadog</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-shield-alt skill-category-icon"></i> Security & Networking
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">IAM</span>
+                    <span class="skill-tag">KMS</span>
+                    <span class="skill-tag">VPN</span>
+                    <span class="skill-tag">Route53</span>
+                    <span class="skill-tag">Load Balancers</span>
+                    <span class="skill-tag">Firewall</span>
+                    <span class="skill-tag">Silverline</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-terminal skill-category-icon"></i> Languages & Scripting
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Bash</span>
+                    <span class="skill-tag">YAML</span>
+                    <span class="skill-tag">Java</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3 class="skill-category-title">
+                    <i class="fas fa-tools skill-category-icon"></i> Tools & Platforms
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Azure DevOps</span>
+                    <span class="skill-tag">Lightning</span>
+                    <span class="skill-tag">Confluence</span>
+                    <span class="skill-tag">MS Teams</span>
+                    <span class="skill-tag">Slack</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">AWX Tower</span>
+                </div>
+            </div>
+
         </div>
-        <div class="edu__item">
-          <h3 class="edu__degree">B.Tech, Computer Science and Engineering</h3>
-          <p class="edu__school">Malla Reddy Engineering College · Hyderabad, Telangana, India</p>
+    </div>
+</section>
+
+<!-- GitHub Section -->
+<section id="github" class="github-section">
+    <div class="container">
+        <h2 class="section-title">GitHub Activity</h2>
+
+        <!-- Profile Link -->
+        <div class="github-profile-header">
+            <a href="https://github.com/bnikkhil14" target="_blank" class="github-profile-link">
+                <i class="fab fa-github"></i>
+                <span>View Full Profile on GitHub</span>
+                <span class="github-repos-count" id="repos-count">11 Public Repositories</span>
+            </a>
         </div>
-      </div>
+
+        <!-- Projects Grid - Dynamically loaded -->
+        <div class="github-projects-grid" id="github-projects">
+            <!-- Loading placeholder -->
+            <div class="github-loading" id="github-loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading projects...
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-</main>
+<script>
+    // Fetch and display GitHub repos dynamically
+    async function loadGitHubRepos() {
+        const container = document.getElementById('github-projects');
+        const loading = document.getElementById('github-loading');
+        const reposCount = document.getElementById('repos-count');
 
-<!-- ================= CONTACT / FOOTER ================= -->
-<footer class="contact" id="contact">
-  <div class="contact__inner">
-    <p class="kicker mono">06 — contact</p>
-    <h2 class="contact__title">Let's build something<br>that stays up.</h2>
+        // Language colors mapping
+        const langColors = {
+            'JavaScript': '#f1e05a',
+            'Python': '#3572A5',
+            'HTML': '#e34c26',
+            'CSS': '#563d7c',
+            'Java': '#b07219',
+            'TypeScript': '#2b7489',
+            'Shell': '#89e051',
+            'Dockerfile': '#384d54',
+            'HCL': '#844FBA',
+            'YAML': '#cb171e'
+        };
 
-    <div class="terminal mono" id="terminal">
-      <p><span class="terminal__prompt">$</span> whoami</p>
-      <p class="terminal__out">nikhil-kumar-bodige</p>
-      <p><span class="terminal__prompt">$</span> cat contact.yml</p>
-      <p class="terminal__out">email:    <a href="mailto:bnikkhil14@gmail.com">bnikkhil14@gmail.com</a></p>
-      <p class="terminal__out">phone:    <a href="tel:+16479463644">+1 (647) 946‑3644</a></p>
-      <p class="terminal__out">linkedin: <a href="https://linkedin.com/in/nikhil-kumar-bodige-029359209" target="_blank" rel="noopener">/in/nikhil-kumar-bodige-029359209</a></p>
-      <p><span class="terminal__prompt">$</span> <span class="terminal__cursor">▌</span></p>
+        // Icon mapping based on repo name/topic
+        const getIcon = (name) => {
+            const n = name.toLowerCase();
+            if (n.includes('amazon')) return 'fab fa-amazon';
+            if (n.includes('netflix')) return 'fas fa-film';
+            if (n.includes('drowsiness') || n.includes('detection')) return 'fas fa-eye';
+            if (n.includes('devops') || n.includes('learn')) return 'fas fa-server';
+            if (n.includes('clone')) return 'fas fa-clone';
+            if (n.includes('portfolio') || n.includes('github.io')) return 'fas fa-user';
+            return 'fas fa-code-branch';
+        };
+
+        try {
+            const response = await fetch('https://api.github.com/users/VasistaBehara/repos?sort=updated&per_page=6');
+
+            if (!response.ok) throw new Error('API Error');
+
+            const repos = await response.json();
+
+            // Update repo count
+            const countResponse = await fetch('https://api.github.com/users/VasistaBehara');
+            if (countResponse.ok) {
+                const userData = await countResponse.json();
+                reposCount.textContent = `${userData.public_repos} Public Repositories`;
+            }
+
+            // Clear loading
+            loading.style.display = 'none';
+
+            // Render repos
+            repos.slice(0, 6).forEach((repo, index) => {
+                const langColor = langColors[repo.language] || '#06b6d4';
+                const card = document.createElement('div');
+                card.className = 'github-project-card fade-in';
+                card.style.transitionDelay = `${index * 100}ms`;
+
+                // Make whole card clickable
+                card.onclick = () => window.open(repo.html_url, '_blank');
+                card.style.cursor = 'pointer';
+
+                card.innerHTML = `
+                <div class="project-icon"><i class="${getIcon(repo.name)}"></i></div>
+                <h3 class="project-name">${repo.name}</h3>
+                <p class="project-description">${repo.description || 'No description available'}</p>
+                ${repo.homepage ? `<a href="${repo.homepage}" target="_blank" class="project-website" onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
+                <div class="project-meta">
+                    <span class="project-lang">
+                        <i class="fas fa-circle" style="color: ${langColor}"></i> 
+                        ${repo.language || 'Mixed'}
+                    </span>
+                    ${repo.stargazers_count > 0 ? `<span class="project-stars"><i class="fas fa-star"></i> ${repo.stargazers_count}</span>` : ''}
+                </div>
+            `;
+
+                container.appendChild(card);
+
+                // Trigger fade-in animation
+                setTimeout(() => card.classList.add('visible'), 50);
+            });
+
+        } catch (error) {
+            // Fallback to static content if API fails
+            loading.style.display = 'none';
+            container.innerHTML = `
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/amazon-clone', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fab fa-amazon"></i></div>
+                <h3 class="project-name">amazon-clone</h3>
+                <p class="project-description">Amazon website clone built for learning web development</p>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
+            </div>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/netflix-clone', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fas fa-film"></i></div>
+                <h3 class="project-name">netflix-clone</h3>
+                <p class="project-description">Netflix UI clone for front-end practice</p>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
+            </div>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/driver-drowsiness-detection', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fas fa-eye"></i></div>
+                <h3 class="project-name">driver-drowsiness-detection</h3>
+                <p class="project-description">ML-based driver drowsiness detection system</p>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #3572A5"></i> Python</span></div>
+            </div>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/learn-devops', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fas fa-server"></i></div>
+                <h3 class="project-name">learn-devops</h3>
+                <p class="project-description">DevOps learning resources and configurations</p>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #06b6d4"></i> DevOps</span></div>
+            </div>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/vasistabehara.github.io', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fas fa-user"></i></div>
+                <h3 class="project-name">vasistabehara.github.io</h3>
+                <p class="project-description">Personal portfolio website</p>
+                <a href="https://vasistabehara.github.io" target="_blank" class="project-website" onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
+            </div>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara?tab=repositories', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fas fa-code-branch"></i></div>
+                <h3 class="project-name">Other Projects</h3>
+                <p class="project-description">View more projects on GitHub</p>
+                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle"></i> Various</span></div>
+            </div>
+        `;
+        }
+    }
+
+    // Load repos when page is ready
+    document.addEventListener('DOMContentLoaded', loadGitHubRepos);
+</script>
+
+
+<!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="education-card fade-in">
+                <h3 class="education-degree">MS, Computer Science</h3>
+                <p class="education-school">Lakehead University</p>
+                <p class="education-date"><i class="far fa-calendar"></i> 2017 – 2019 · Thunder Bay · Canada</p>
+            </div>
+            <div class="education-card fade-in">
+                <h3 class="education-degree">B.Tech, Computer Science</h3>
+                <p class="education-school">Malla Reddy Engineering College (MREC)</p>
+                <p class="education-date"><i class="far fa-calendar"></i> 2013 – 2017 · Hyderabad · India</p>
+            </div>
+        </div>
     </div>
+</section>
 
-    <p class="foot mono">© <span id="year"></span> Nikhil Kumar Bodige · Built with HTML, CSS &amp; JS on GitHub Pages</p>
-  </div>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="contact-content">
+            <h2 class="contact-title">Let's Connect</h2>
+            <p class="contact-description">
+                Interested in working together or have a question? Feel free to reach out!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:bnikkhil14@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> bnikkhil14@gmail.com
+                </a>
+                <a href="www.linkedin.com/in/nikhil-kumar-bodige-029359209" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/bnikkhil14" target="_blank" class="contact-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-text">
+            © 2026 <span>Nikhil Kumar Bodige</span> · Built with Jekyll & GitHub Pages
+        </p>
+    </div>
 </footer>
-
-<script src="/main.js"></script>
-</body>
-</html>
