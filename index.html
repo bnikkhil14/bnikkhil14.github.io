@@ -153,8 +153,8 @@ description: Senior DevOps & Cloud Engineer with 6+ years of experience deliveri
         <div class="certs-grid">
             <div class="cert-card aws fade-in">
                 <div class="cert-badge">
-                    <img src="/assets/certifications/Devops_engineer_professional.png"
-                        alt="AWS DevOps Engineer Professional Badge">
+                    <img src="{{ '/assets/certifications/Devops_engineer_professional.png' | relative_url }}"
+                          alt="AWS DevOps Engineer Professional Badge">
                 </div>
                 <h3 class="cert-name">AWS Certified DevOps Engineer - Professional</h3>
                 <p class="cert-date">Issued: Dec 2020 · Expires: Dec 2023</p>
@@ -400,14 +400,14 @@ description: Senior DevOps & Cloud Engineer with 6+ years of experience deliveri
         };
 
         try {
-            const response = await fetch('https://api.github.com/users/VasistaBehara/repos?sort=updated&per_page=6');
+            const response = await fetch('https://api.github.com/users/bnikkhil14/repos?sort=updated&per_page=6');
 
             if (!response.ok) throw new Error('API Error');
 
             const repos = await response.json();
 
             // Update repo count
-            const countResponse = await fetch('https://api.github.com/users/VasistaBehara');
+            const countResponse = await fetch('https://api.github.com/users/bnikkhil14');
             if (countResponse.ok) {
                 const userData = await countResponse.json();
                 reposCount.textContent = `${userData.public_repos} Public Repositories`;
@@ -451,42 +451,11 @@ description: Senior DevOps & Cloud Engineer with 6+ years of experience deliveri
             // Fallback to static content if API fails
             loading.style.display = 'none';
             container.innerHTML = `
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/amazon-clone', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fab fa-amazon"></i></div>
-                <h3 class="project-name">amazon-clone</h3>
-                <p class="project-description">Amazon website clone built for learning web development</p>
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/bnikkhil14/nikhilbodige.github.io', '_blank')" style="cursor: pointer;">
+                <div class="project-icon"><i class="fab fa-user-circle-o"></i></div>
+                <h3 class="project-name">nikhilbodige.github.io</h3>
+                <p class="project-description">Personal Portfolio Website</p>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
-            </div>
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/netflix-clone', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fas fa-film"></i></div>
-                <h3 class="project-name">netflix-clone</h3>
-                <p class="project-description">Netflix UI clone for front-end practice</p>
-                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
-            </div>
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/driver-drowsiness-detection', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fas fa-eye"></i></div>
-                <h3 class="project-name">driver-drowsiness-detection</h3>
-                <p class="project-description">ML-based driver drowsiness detection system</p>
-                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #3572A5"></i> Python</span></div>
-            </div>
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/learn-devops', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fas fa-server"></i></div>
-                <h3 class="project-name">learn-devops</h3>
-                <p class="project-description">DevOps learning resources and configurations</p>
-                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #06b6d4"></i> DevOps</span></div>
-            </div>
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/vasistabehara.github.io', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fas fa-user"></i></div>
-                <h3 class="project-name">vasistabehara.github.io</h3>
-                <p class="project-description">Personal portfolio website</p>
-                <a href="https://vasistabehara.github.io" target="_blank" class="project-website" onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
-            </div>
-            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara?tab=repositories', '_blank')" style="cursor: pointer;">
-                <div class="project-icon"><i class="fas fa-code-branch"></i></div>
-                <h3 class="project-name">Other Projects</h3>
-                <p class="project-description">View more projects on GitHub</p>
-                <div class="project-meta"><span class="project-lang"><i class="fas fa-circle"></i> Various</span></div>
             </div>
         `;
         }
