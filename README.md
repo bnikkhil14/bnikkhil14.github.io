@@ -8,14 +8,18 @@ Built as a plain static site (HTML/CSS/JS) — no build step, deploys directly o
 
 ## Structure
 
-```
-.
-├── index.html              # all page content
+├── _config.yml           # Jekyll configuration
+├── _layouts/
+│   └── default.html      # Base HTML template
 ├── assets/
-│   ├── css/style.css       # design system + layout
-│   └── js/main.js          # nav toggle, scroll-spy, footer year
-└── README.md
-```
+│   └── css/
+│       └── style.css     # Dark theme styling
+├── index.html            # Main portfolio content
+├── Gemfile               # Ruby dependencies
+├── .github/
+│   └── workflows/
+│       └── jekyll.yml    # GitHub Actions deployment
+└── resume                # Source resume file
 
 ## Deploy on GitHub Pages
 
