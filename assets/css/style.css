@@ -274,10 +274,25 @@ section {
 }
 
 .hero-description {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  line-height: 1.8;
+  display: grid;
+  gap: 0.85rem;
   margin-bottom: 2rem;
+}
+
+.hero-point {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border-accent);
+  border-left: 4px solid var(--accent-primary);
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.35);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+}
+
+.hero-point strong {
+  color: var(--text-primary);
 }
 
 .hero-cta {
